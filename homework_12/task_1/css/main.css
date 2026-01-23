@@ -1,0 +1,21 @@
+
+.header {
+    text-align: center;
+}
+.header__title {
+    color: rgb(50, 50, 255);
+}
+
+table {
+    border-collapse: collapse;
+    margin-inline: auto;
+}
+td {
+    border: 1px solid #333;
+    padding: 6px 10px;
+    text-align: center;
+}
+.header-cell {
+    background-color: #fca4a4;
+    font-weight: bold;
+}
