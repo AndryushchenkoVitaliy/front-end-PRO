@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="./js/main.js" defer></script>
+  <title>hw15t1</title>
+</head>
+
+<body>
+
+  <table id="userTable">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Age</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        </tbody>
+</table>
+
+<button type="button" id="addNewBtn">Add User</button>
+
+<form id="userForm" style="display:none; margin-top: 20px;">
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="text" name="phone" placeholder="Phone" required>
+    <input type="number" name="age" placeholder="Age" required>
+    
+    <button type="submit">OK</button>
+</form>
+
+<div id="viewBlock" style="display:none;">
+    <pre id="jsonOutput"></pre>
+</div>
+
+</body>
+
+</html>

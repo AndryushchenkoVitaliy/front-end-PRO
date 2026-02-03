@@ -1,0 +1,107 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  padding: 40px;
+  color: #333;
+}
+
+h2 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #e0e0e0;
+}
+
+th {
+  background-color: #f9f9f9;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+button {
+  background-color: #6200ee;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background 0.2s;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #4b00ba;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+#userForm {
+  background: white;
+  padding: 20px;
+  width: 320px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+#userForm input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+#userForm input:focus {
+  outline: none;
+  border-color: #6200ee;
+}
+
+#userForm button[type="submit"] {
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+#viewBlock {
+  margin-top: 25px;
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 4px;
+  width: fit-content;
+  min-width: 300px;
+}
+
+pre {
+  margin: 0;
+  color: #e91e63;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+button[data-action="remove"] {
+  background-color: #6200ee;
+}
