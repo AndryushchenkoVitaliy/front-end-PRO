@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.student-block {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #3a3a3a;
+    border-radius: 8px;
+    background-color: antiquewhite;
+}
+
+.attendance-container {
+    display: flex;
+    gap: 3px;
+    margin: 5px 0;
+}
+
+.attendance-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    width: 40px;
+    height: 25px;
+    background-color: #bbb;
+    border-radius: 4px;
+}
+
+.attendance-container div.attendance-present {
+    background-color: #4CAF50;
+}
+
+.attendance-container div.attendance-absent {
+    background-color: #F44336;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+.controls button, .controls input {
+    margin-right: 5px;
+    padding: 5px 8px;
+}
