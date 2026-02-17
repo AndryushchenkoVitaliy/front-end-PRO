@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #1e3c72;
+  color: white;
+}
+
+.weather-widget {
+  background: #2c5364;
+  padding: 20px 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 280px;
+}
+
+.date-time {
+  margin-bottom: 15px;
+}
+
+.temperature {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.feels-like, .description, .details {
+  margin: 5px 0;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+}
+
+.refresh-btn {
+  margin-top: 10px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #f39c12;
+  color: white;
+  transition: 0.3s;
+}
+
+.refresh-btn:hover {
+  background: #e67e22;
+}
