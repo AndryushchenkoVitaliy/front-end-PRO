@@ -1,0 +1,28 @@
+body {
+    background:#0f172a;
+    color:white;
+}
+
+.hero {
+    padding:40px 0;
+}
+
+.hero h1 {
+    color:#ffc107;
+}
+
+.character-card {
+    background:#1e293b;
+    border:none;
+    color:white;
+    transition:0.3s;
+}
+
+.character-card:hover {
+    transform:scale(1.05);
+}
+
+.card-img-top {
+    height:100%;
+    object-fit:cover;
+}
